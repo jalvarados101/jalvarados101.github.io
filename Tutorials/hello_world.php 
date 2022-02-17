@@ -1,0 +1,37 @@
+php
+  <?php $user = "Patti Smith"; ?>
+  <html>
+  <head></head>
+  <body>
+  Hello <?php echo $user; ?>
+  </body>
+  </html>
+
+php
+<html>
+<head></head>
+<body>
+<?php
+    echo gettype($x = 1);
+    echo "<br>";
+    echo gettype($y = "a string");
+    echo "<br>";
+    echo gettype($z = True);
+    echo "<br>";
+    echo "Pat " . "Metheney";
+?>
+</body>
+</html>
+
+php
+<html>
+<head></head>
+<body>
+<?php
+    $x = 1;
+    $y = 2;
+    $sum = $x + $y;
+    echo $sum;       // prints out 3
+?>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* 
+    COMP 333: Software Engineering
+    Jasmine Alvarado-Salinas (jalvaradosal@wesleyan.edu)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+body {
+    font-family: 'Roboto Serif', sans-serif;
+}
+/*
+    All text in paragraphs will be purple :))
+*/
+p {
+    color:rgb(63, 2, 69);
+}
