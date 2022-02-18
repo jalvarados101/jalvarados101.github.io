@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto Serif', sans-serif;
+    background-color: lightblue;
 }
 /*
     All text in paragraphs will be purple :))
@@ -14,3 +15,66 @@ body {
 p {
     color:rgb(63, 2, 69);
 }
+
+
+/* 
+    For your custom navbar, you can specify the unorderd list style.
+*/
+.navbar ul {
+    /* 
+        Remove bullet points.
+    */
+    list-style: none;
+    width: 500px;
+    margin: 0 auto;
+    /* 
+        No padding.
+    */
+    padding: 0;
+    /* 
+        For navbars use background color that stands out.
+    */
+    background-color:  rgb(7, 196, 180);
+    text-align: center;
+}
+/*  
+    Style individual list items in my navigation bar
+*/
+.navbar li {
+    width: 100%;
+    background-color: rgb(7, 196, 180);
+    border: 2px solid rgb(0, 62, 101);
+    /* 
+        Show the navbar elements next to each other instead of on top of each 
+        other. 
+    */
+    padding: 10px;
+    display: inline;
+    line-height: 40px;
+}
+
+.musbar li a{
+    display: block;
+    width: 60px;
+}
+a:hover{
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+.button{
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
